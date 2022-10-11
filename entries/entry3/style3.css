@@ -1,0 +1,21 @@
+.Eckmann {
+    text-align: center;
+    margin: 0px;
+    font-family: 'Eckmannpsych', Medium;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+.p {
+    text-align: center;
+    margin-bottom: 100px;
+    font-family: 'Sunflower';
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+body {
+    background: url("D:/PARSONS/大二上/Interaction/sizhenchen_cif22/imgs/hypnosis.gif")center;
+    background-size: cover;
+    min-height: 100%;
+  }

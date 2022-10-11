@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  background: url("D:/PARSONS/大二上/Interaction/sizhenchen_cif22/imgs/Sizhen_frottage 1.jpg");
+  background-position:initial;
+  background-size:cover;
+  filter: grayscale(100%);
+  height: 100%;
+}
+.p1{
+text-align: center;
+text-size-adjust: 100px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 80px;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+.dieout {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: .5s ease;
+}
+@keyframes disappear {
+  from {opacity: 1;}
+  to {opacity: 0;;}
+}
+.container:hover .dieout {
+  animation-name: disappear;
+}
