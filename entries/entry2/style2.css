@@ -1,5 +1,4 @@
 body {
-  position:relative;
   background: url("\imgs\paper.jpg");
 }
 h1 { color: rgb(0, 0, 0);
@@ -11,7 +10,7 @@ h1 { color: rgb(0, 0, 0);
 .container{
   height: fit-content;
   display: flex;
-  text-align: center;
+  text-align: left;
   display: inline-block;
 }
 
@@ -20,12 +19,27 @@ img{
   right: 0px;
   width: 1000px;
   padding: 0px;
-  border: 1mm;
+  
 }
-span{
+.span1{
   font-family: Sunflower;
   font-size: 50px;
   margin-left: 50px;
+  line-height:100px;
+  min-width: 300px;
+}
+.container2{
+  height: fit-content;
+  display: flex;
+  text-align: left;
+  display: inline-block;
+  margin-top: 80px;
+  margin-right: 0px;
+}
+.span2{
+  font-family: Sunflower;
+  font-size: 50px;
+  margin-right: 50px;
   line-height:100px;
   min-width: 300px;
 }
