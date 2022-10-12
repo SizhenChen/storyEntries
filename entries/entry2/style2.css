@@ -1,6 +1,7 @@
 body {
-  background-image:  url("imgs\paper.jpg");
+  background: url("imgs\hypnosis.gif")repeat 0 0;;
   width: 100%;
+  min-height: 100%;
 }
 h1 { color: rgb(0, 0, 0);
     font-family: Sunflower;
@@ -42,5 +43,20 @@ img{
   font-size: 50px;
   margin-right: 50px;
   line-height:100px;
+  min-width: 300px;
+}
+.container3{
+  height: fit-content;
+  display: flex;
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 0px;
+}
+.span3{
+  font-family: Sunflower;
+  font-size: 50px;
+  margin-left: 40px;
+  line-height:50px;
   min-width: 300px;
 }
