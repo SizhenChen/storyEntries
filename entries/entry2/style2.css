@@ -2,7 +2,8 @@
   /* The image used */
   background: url("https://i.pinimg.com/564x/03/a1/97/03a197b49c65d789d0c32cedca6a7a86.jpg");
 
-  width: 1500px; 
+  width: 100%; 
+  margin-top: 0cm;
 
   /* Center and scale the image nicely */
   background-position: center;
