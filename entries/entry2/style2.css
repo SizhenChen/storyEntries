@@ -1,9 +1,17 @@
-body {
-  background: url("\imgs\paper.jpg")repeat 0 0;;
-  width: 100%;
-  min-height: 100%;
+.bg {
+  /* The image used */
+  background: url("\imgs\paper.jpg");
+
+  /* Full height */
+  width: 1500px; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-h1 { color: rgb(0, 0, 0);
+h1 
+{ color: rgb(0, 0, 0);
     font-family: Sunflower;
     font-size: 300%;
     text-align: center;
@@ -14,6 +22,7 @@ h1 { color: rgb(0, 0, 0);
   display: flex;
   text-align: left;
   display: inline-block;
+
 }
 
 img{
@@ -42,6 +51,7 @@ img{
   font-family: Sunflower;
   font-size: 50px;
   margin-right: 50px;
+  margin-left: 40px;
   line-height:100px;
   min-width: 300px;
 }
@@ -59,4 +69,7 @@ img{
   margin-left: 40px;
   line-height:50px;
   min-width: 300px;
+}
+.fixed {
+  position: fixed;
 }
