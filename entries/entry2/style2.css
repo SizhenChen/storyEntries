@@ -2,20 +2,22 @@
   /* The image used */
   background: url("https://i.pinimg.com/564x/03/a1/97/03a197b49c65d789d0c32cedca6a7a86.jpg");
 
-  width: 100%; 
+  height: 2400px; 
   margin-top: 0cm;
-
-  /* Center and scale the image nicely */
+  padding-top: 0cm;
+  border: 0cm;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 h1 
-{ color: rgb(0, 0, 0);
+{
+    color: rgb(0, 0, 0);
     font-family: Sunflower;
     font-size: 300%;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
+    padding-top: 50px;
   }
 .container{
   height: fit-content;
