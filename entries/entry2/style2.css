@@ -1,52 +1,31 @@
-body {background-color: rgb(228, 228, 228);}
+body {
+  position:relative;
+  background: url("D:\PARSONS\大二上\Interaction\sizhenchen_cif22\sizhenchen.github.io\imgs\paper.jpg");
+}
 h1 { color: rgb(0, 0, 0);
-    font-family: Georgia, serif;
+    font-family: Sunflower;
     font-size: 300%;
     text-align: center;
+    margin-top: 20px;
   }
+.container{
+  height: fit-content;
+  display: flex;
+  text-align: center;
+  display: inline-block;
+}
 
-  div {
-    margin-top: 50px;
-    margin-left: 120px;
-    width: 25%;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 5px;
-    padding-top: 50px;
-    padding-right: 70px;
-    padding-bottom: 50px;
-    padding-left: 70px;
-    word-wrap: break-word;
-    float:left;
-    line-height: 0.85cm;
-    text-align: justify;
-  }
-  .container {
-    max-width: 450px;
-    width: 100%;
-    float:right;
-    margin-right:100px;
-    border:none;
-    padding:none;
-    margin-top: 0px;
-  }
-
-  .container.img {
-    width: 100%;
-    object-fit:fill;
-  }
-
-  .container .button {
-    background-color: rgb(190, 190, 190);
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    margin:auto;
-    width: 150px;
-  }
-
-  .container .button:hover {
-    background-color: rgb(35, 35, 35);
-    color: rgb(236, 236, 236);
-  }
-
+img{
+  position:absolute;
+  right: 0px;
+  width: 1000px;
+  padding: 0px;
+  border: 1mm;
+}
+span{
+  font-family: Sunflower;
+  font-size: 50px;
+  margin-left: 50px;
+  line-height:100px;
+  min-width: 300px;
+}
