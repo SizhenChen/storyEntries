@@ -1,11 +1,15 @@
-.Eckmann {
-    text-align: center;
-    margin: 0px;
-    font-family: 'Eckmannpsych', Medium;
-    font-size: 70px;
-    color: rgb(255, 255, 255);
-    line-height: 1.5;
-}
+.bg {
+    /* The image used */
+    background: url("https://i.pinimg.com/564x/53/dc/96/53dc96b98f7feaeb3f9cce8ac40e2852.jpg");
+  
+    height: 2400px; 
+    margin-top: 0cm;
+    padding-top: 0cm;
+    border: 0cm;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 .p {
     text-align: center;
     margin-bottom: 100px;
