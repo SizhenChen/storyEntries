@@ -1,50 +1,118 @@
-.container {
-  position: relative;
-  background: url("D:\PARSONS\大二上\Interaction\sizhenchen_cif22\sizhenchen.github.io\imgs\Sizhen_frottage 1.jpg");
-  background-position:initial;
-  background-size:cover;
-  filter: grayscale(100%);
-  height: 100%;
+.bg {
+  background: url("https://i.pinimg.com/originals/de/0e/70/de0e706fbc5c69ebc13ff52366cf7f7d.gif");
+
+  height: 1300px; 
+  margin-top: 0cm;
+  padding-top: 0cm;
+  border: 0cm;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.p1{
-text-align: center;
-text-size-adjust: 100px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 80px;
-position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.div1{
+  width:1300px;
+  height: 820px;
+  position:center;
+  transform-origin: 58% 79%;
+  animation-name: rotate;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
 }
-.overlay {
+.top{
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
+  top: 10px;
+  left:30%;
 }
-.container:hover .overlay {
-  opacity: 1;
-}
-.dieout {
+.bottom-left{
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: .5s ease;
+  bottom: 100px;
+  left: 100px;
 }
-@keyframes disappear {
-  from {opacity: 1;}
-  to {opacity: 0;;}
+.bottom-right{
+  position: absolute;
+  bottom: 0px;
+  right: 10%;
 }
-.container:hover .dieout {
-  animation-name: disappear;
+@keyframes rotate {
+  0%   {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
 }
+.top:hover{
+  position:absolute;
+  filter: opacity(50%);
+}
+.bottom-left:hover{
+  position:absolute;
+  filter: opacity(50%);
+}
+.bottom-right:hover{
+  position:absolute;
+  filter: opacity(50%);
+}
+
+/*
+.div2{
+  height: 1200px;
+  width: 1000px;
+  background-color: black;
+  filter: opacity(50%);
+  animation-name: colorC;
+  animation-duration: 4s;
+}
+@keyframes colorC {
+  0%   {color: rgb(64, 9, 158);}
+  25%   {color: rgb(209, 32, 126);}
+  50%   {color: rgb(159, 207, 245);}
+  75%   {color: rgb(224, 189, 125);}
+  100% {color: rgb(0, 0, 0);}
+}
+/*.container1{
+  width:90mm;
+  height: fit-content;
+  position:relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+ }
+ .container1:hover{
+  position:absolute;
+  filter: opacity(50%);
+}
+ @keyframes example {
+  0%   {left:0px; top:300px;transform: rotate(0deg);}
+  12.5% {left:200px; top:50px;}
+  25%  {left:500px; top:0px;}
+  37.5% {left:800px; top:50px;}
+  50%  {left:1100px; top:300px;}
+  62.5% {left:900px; top:550px;}
+  75%  {left:500x; top:610px;}
+  87.5% {left:200px; top:550px;}
+  100% {left:0px; top:300px;transform: rotate(720deg);}
+}
+.container2{
+  width:70mm;
+  height: fit-content;
+  position:relative;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+ }
+ .container2:hover{
+  position:absolute;
+  filter: opacity(50%);
+}
+ @keyframes example2 {
+  0%  {left:1100px; top:300px;transform: rotate(0deg);}
+  12.5% {left:900px; top:550px;}
+  25%  {left:500x; top:610px;}
+  37.5% {left:200px; top:550px;}
+  50% {left:0px; top:300px;}
+  67.5%   {left:200px; top:50px;}
+  75% {left:500px; top:0px;}
+  87.5%  {left:800px; top:50px;}
+  100% {left:1100px; top:300px;transform: rotate(720deg);}
+}
+*/
