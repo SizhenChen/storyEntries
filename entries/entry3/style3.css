@@ -1,14 +1,15 @@
 .bg {
     /* The image used */
-    background: url("https://i.pinimg.com/564x/53/dc/96/53dc96b98f7feaeb3f9cce8ac40e2852.jpg");
+    background: url("/imgs/桌子.jpg");
   
-    height: 2400px; 
+    height: 1500px; 
     margin-top: 0cm;
     padding-top: 0cm;
     border: 0cm;
-    background-position: center;
+    background-position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: grayscale(100%);
   }
 .p {
     text-align: center;
@@ -18,8 +19,11 @@
     color: rgb(255, 255, 255);
     line-height: 1.5;
 }
-body {
-    background: url("D:\PARSONS\大二上\Interaction\sizhenchen_cif22\sizhenchen.github.io\imgs\I am MOULDABLE.jpg")center;
-    background-size: cover;
-    min-height: 100%;
-  }
+img{
+    position:absolute;
+}
+img:hover{
+    position:absolute;
+    filter: opacity(50%);
+}
+
