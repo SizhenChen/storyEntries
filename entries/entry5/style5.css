@@ -1,0 +1,21 @@
+.columnLeft {
+    float: left;
+    width: fit-content;
+    padding: 0px;
+    height: fit-content; /* Should be removed. Only for demonstration */
+  }
+.column {
+    float: left;
+    width: fit-content;
+    padding-left: 200px;
+    height: fit-content; /* Should be removed. Only for demonstration */
+  }
+  .bg {
+    height: 1200px; 
+    margin-top: 0cm;
+    padding-top: 0cm;
+    border: 0cm;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
