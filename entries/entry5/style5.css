@@ -19,3 +19,80 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  img{
+    position: relative;
+    align-self: baseline;
+  }
+  @keyframes UpToDown{
+    0%   {top: -150px;}
+    50%  {top: 600px;}
+    100% {top: 1200px;}
+  }
+  .img1{
+    transform:rotate(20deg);
+    position: absolute;
+    left: 20px;
+    animation-name: UpToDown;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+  }
+.img1:hover{
+    filter: opacity(50%);
+}
+.img3{
+    transform:rotate(20deg);
+    position: absolute;
+    left: 620px;
+    animation-name: UpToDown;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+  }
+.img3:hover{
+    filter: opacity(50%);
+}
+.img5{
+  transform:rotate(20deg);
+  position: absolute;
+  left: 1220px;
+  animation-name: UpToDown;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+}
+.img5:hover{
+  filter: opacity(50%);
+}
+@keyframes DownToUp{
+  0%   {top: 1200px;}
+  50%  {top: 600px;}
+  100% {top: -150px;}
+}
+.img2{
+  transform:rotate(30deg);
+  position: absolute;
+  left: 340px;
+  animation-name: DownToUp;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+}
+.img2:hover{
+  filter: opacity(50%);
+}
+.img4{
+  transform:rotate(30deg);
+  position: absolute;
+  left: 935px;
+  animation-name: DownToUp;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+}
+.img4:hover{
+  filter: opacity(50%);
+}
