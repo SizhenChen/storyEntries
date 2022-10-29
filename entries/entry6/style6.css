@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background: url(https://i.pinimg.com/564x/e8/e1/57/e8e157dfb79a7f582ad53a3115c063a4.jpg);
+    filter: grayscale(30%);
+  }
+  
+  .flex-container > img {
+    max-width: 300px;
+    margin: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 0px;
+    text-align: initial;
+    line-height:fit-content;
+  }
