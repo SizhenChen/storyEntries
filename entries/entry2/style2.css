@@ -18,13 +18,13 @@ h1
     text-align: center;
     margin-top: 0px;
     padding-top: 50px;
-    display: flex;
   }
 .container{
   height: fit-content;
   display: flex;
   text-align: left;
   display: inline-block;
+
 }
 
 img{
@@ -32,10 +32,9 @@ img{
   right: 0px;
   width: 1000px;
   padding: 0px;
-  display: flex;
+  
 }
 .span1{
-  display: flex;
   font-family: Sunflower;
   font-size: 50px;
   margin-left: 50px;
@@ -51,7 +50,6 @@ img{
   margin-right: 0px;
 }
 .span2{
-  display: flex;
   font-family: Sunflower;
   font-size: 50px;
   margin-right: 50px;
@@ -68,7 +66,6 @@ img{
   margin-right: 0px;
 }
 .span3{
-  display: flex;
   font-family: Sunflower;
   font-size: 50px;
   margin-left: 40px;
