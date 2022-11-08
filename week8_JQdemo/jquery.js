@@ -2,6 +2,8 @@
 // $(document).ready(function() {alert("[hello earthlings]"); })
 
 // JS files comment with two backslash lines 
+$(document).ready(function() {alert ("nonononono") })
+
 $(document).ready(function() {$("#ufo").draggable(); })
 
 $(document).ready(function() {$("#cat").draggable(); })
