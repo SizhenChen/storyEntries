@@ -68,12 +68,12 @@ img {
     background: url(https://i.pinimg.com/564x/14/19/12/141912fb57840ded5cac8369439a8f00.jpg);
     z-index: 2;
 }  
-/*row6*/
 .div9{
     grid-area: 5 / 10 / 5 / 11;
     background: url(https://i.pinimg.com/564x/14/19/12/141912fb57840ded5cac8369439a8f00.jpg);
     z-index: 2;
-}      
+}     
+/*row6*/ 
 .div10{
     grid-area: 6 / 1 / 6 / 11;
     background: url(https://i.pinimg.com/564x/14/19/12/141912fb57840ded5cac8369439a8f00.jpg);
