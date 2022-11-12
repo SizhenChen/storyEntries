@@ -1,1 +1,1 @@
-$(document).ready(function() {$("#let1").draggable(); })
+$(document).ready(function() {$("#全部").draggable(); })
