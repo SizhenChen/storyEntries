@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(161, 235, 87);
+  }
+  
+  #message1 {
+    font-style: italic;
+    font-size: 11vw;
+    text-align: center;
+    color: MidnightBlue;
+    display: block;
+  }
+    
+
+#message2 {
+    font-size: 12vw;
+  }
+  
+  #message3 {
+    font-size: 3vw;
+  }
+  
+  /* On screens that are 992px wide or less, the background color is WhiteSmoke */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: WhiteSmoke;
+      color: Fuchsia;
+    }
+      #message1 {
+        display: none; 
+      
+       }
+       
+       #message2 {
+       font-style: italic;
+       font-size: 12vw;
+         text-align: center;
+       display: block;
+     }
+     
+     #message3 {
+       font-style: italic;
+       font-size: 3vw;
+       text-align: center;
+       display: none;
+     }
+
+    }
+    
+  
+    
+  
+  
+  /* On screens that are 600px wide or less, the background color is Olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+      color: Yellow;
+    }
+
+    #message1 {
+        display: none; 
+       }
+       
+       #message2 {
+       font-style: italic;
+       font-size: 15vw;
+         text-align: center;
+       display: none;
+     }
+     
+     #message3 {
+       font-style: italic;
+       font-size: 3vw;
+       text-align: center;
+       display: block;
+     }
+       
+     }
+     
+    
