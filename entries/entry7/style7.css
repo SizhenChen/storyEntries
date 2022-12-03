@@ -1,7 +1,5 @@
-body{
+body{ 
     background-color: black;
-}
-.parent { 
     display: grid; 
     grid: 120px 120px 120px 120px 120px 120px 120px 120px/ 120px 120px 120px 120px 120px 120px;
     grid-column-gap: 0px;
