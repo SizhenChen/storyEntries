@@ -1,46 +1,410 @@
-body {
-    background-color: rgb(161, 235, 87);
+body  {
+    display: grid;
+    grid-template-columns: 30px 40px 30px 50px 60px 30px 30px 
+                           30px 20px 50px 70px 30px 40px 60px 
+                           30px 20px 30px 30px 70px 50px 30px 
+                           20px 20px 30px 30px 20px 20px 60px 
+                           30px 50px 40px 30px 20px 20px 60px
+                           30px 20px 40px 30px 20px 50px 60px;
+    grid-template-rows: 1800px;
+    grid-row-gap: 0px; 
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
   }
+
+.div1{
+    grid-area: 1 / 1 / 1 / 1;
+    animation-name: Color1;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+} 
+.div2{
+  grid-area: 1 / 2 / 1 / 2;
+  animation-name: Color2;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div3{
+  grid-area: 1 / 3 / 1 / 3;
+  animation-name: Color3;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div4{
+  grid-area: 1 / 4 / 1 / 4;
+  animation-name: Color4;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div5{
+  grid-area: 1 / 5 / 1 / 5;
+  animation-name: Color1;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+} 
+.div6{
+  grid-area: 1 / 6 / 1 / 6;
+  animation-name: Color2;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div7{
+  grid-area: 1 / 7 / 1 / 7;
+  animation-name: Color3;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div8{
+  grid-area: 1 / 8 / 1 / 8;
+  animation-name: Color1;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div9{
+grid-area: 1 / 9 / 1 / 9;
+animation-name: Color2;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div10{
+grid-area: 1 / 10 / 1 / 10;
+animation-name: Color3;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div11{
+grid-area: 1 / 11 / 1 / 11;
+animation-name: Color4;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div12{
+grid-area: 1 / 12 / 1 / 12;
+animation-name: Color1;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div13{
+grid-area: 1 / 13 / 1 / 13;
+animation-name: Color2;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div14{
+grid-area: 1 / 14 / 1 / 14;
+animation-name: Color3;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div15{
+  grid-area: 1 / 15 / 1 / 15;
+  animation-name: Color1;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div16{
+grid-area: 1 / 16 / 1 / 16;
+animation-name: Color2;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div17{
+grid-area: 1 / 17 / 1 / 17;
+animation-name: Color3;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div18{
+grid-area: 1 / 18 / 1 / 18;
+animation-name: Color4;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div19{
+grid-area: 1 / 19 / 1 / 19;
+animation-name: Color1;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div20{
+grid-area: 1 / 20 / 1 / 20;
+animation-name: Color2;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div21{
+grid-area: 1 / 21 / 1 / 21;
+animation-name: Color3;
+animation-duration: 0.12s;
+animation-timing-function: linear;
+animation-iteration-count:infinite;
+} 
+.div22{
+  grid-area: 1 / 22 / 1 / 22;
+  animation-name: Color3;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+  } 
+.div23{
+    grid-area: 1 / 23 / 1 / 23;
+    animation-name: Color1;
+      animation-duration: 0.12s;
+      animation-timing-function: linear;
+      animation-iteration-count:infinite;
+  } 
+  .div24{
+    grid-area: 1 / 24 / 1 / 24;
+    animation-name: Color2;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+  } 
+  .div25{
+    grid-area: 1 / 25 / 1 / 25;
+    animation-name: Color3;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+  } 
+  .div26{
+    grid-area: 1 / 25 / 1 / 25;
+    animation-name: Color1;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+  } 
+  .div26{
+  grid-area: 1 / 26 / 1 / 26;
+  animation-name: Color2;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+  } 
+  .div27{
+  grid-area: 1 / 27 / 1 / 27;
+  animation-name: Color3;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+  } 
+.div28{
+    grid-area: 1 / 28 / 1 / 28;
+    animation-name: Color1;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+} 
+.div29{
+  grid-area: 1 / 29 / 1 / 29;
+  animation-name: Color2;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div30{
+  grid-area: 1 / 30 / 1 / 30;
+  animation-name: Color3;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div31{
+  grid-area: 1 / 31 / 1 / 31;
+  animation-name: Color4;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div32{
+  grid-area: 1 / 32 / 1 / 32;
+  animation-name: Color1;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+} 
+.div33{
+  grid-area: 1 / 33 / 1 / 33;
+  animation-name: Color2;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div34{
+  grid-area: 1 / 34 / 1 / 34;
+  animation-name: Color3;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div35{
+  grid-area: 1 / 35 / 1 / 35;
+  animation-name: Color1;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+} 
+.div36{
+  grid-area: 1 / 36 / 1 / 36;
+  animation-name: Color2;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div37{
+  grid-area: 1 / 37 / 1 / 37;
+  animation-name: Color3;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div38{
+  grid-area: 1 / 38 / 1 / 38;
+  animation-name: Color4;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div39{
+  grid-area: 1 / 39 / 1 / 39;
+  animation-name: Color1;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+} 
+.div40{
+  grid-area: 1 / 40 / 1 / 40;
+  animation-name: Color2;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div41{
+  grid-area: 1 / 41 / 1 / 41;
+  animation-name: Color3;
+  animation-duration: 0.12s;
+  animation-timing-function: linear;
+  animation-iteration-count:infinite;
+} 
+.div42{
+  grid-area: 1 / 42 / 1 / 42;
+  animation-name: Color1;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+} 
+    
   
-  #message1 {
-    font-style: italic;
-    font-size: 11vw;
+#message1 {
+    font-family: sunflower;
     text-align: center;
-    color: MidnightBlue;
-    display: block;
+    animation-name: Change1;
+    animation-duration: 0.12s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
   }
     
 
 #message2 {
-    font-size: 12vw;
+  font-family: sunflower;
+    font-size: 150px;
+    display: none; 
   }
   
   #message3 {
-    font-size: 3vw;
+    font-family: sunflower;
+    font-size: 50px;
+    display: none; 
+  }
+
+  #碎屏{
+    margin: 0px;
+    display: flex;
+    position: absolute;
+    height: 1850px;
+    z-index: 3;
   }
   
+  @keyframes Color1 {
+    from {background-color:rgb(42, 22, 224);}
+    to {background-color:rgb(0, 0, 0);}
+  }
+  @keyframes Color2 {
+    from {background-color: rgb(44, 207, 210);}
+    to {background-color:rgb(210, 29, 201);}
+  }
+  @keyframes Color3 {
+    from {background-color:rgb(224, 22, 22);}
+    to {background-color:rgb(67, 141, 47);}
+  }
+  @keyframes Color4 {
+    from {background-color:rgb(224, 207, 22);}
+    to {background-color:rgb(21, 147, 120);}
+  }
+
+  @keyframes Change1 {
+    0% {color: rgb(255, 255, 255);font-size: 210px;}
+    25% {color: rgb(217, 33, 125);}
+    50% {color: rgb(0, 0, 0);font-size: 220px;}
+    75% {color:rgb(166, 189, 52);}
+    100% {color:rgb(0, 0, 0);font-size: 210px;}
+  }
+  @keyframes Change2 {
+    0% {color: rgb(241, 155, 229);font-size: 100px;}
+    100% {color: rgb(0, 0, 0);font-size: 102px;}
+  }
+  @keyframes Change3 {
+    0% {color: rgb(48, 105, 128);font-size: 50px;}
+    100% {color: rgb(221, 25, 25);font-size: 51px;}
+  }
+
   /* On screens that are 992px wide or less, the background color is WhiteSmoke */
   @media screen and (max-width: 992px) {
-    body {
-      background-color: WhiteSmoke;
-      color: Fuchsia;
-    }
+    
       #message1 {
         display: none; 
       
        }
        
        #message2 {
-       font-style: italic;
-       font-size: 12vw;
-         text-align: center;
-       display: block;
+        font-family: sunflower;
+        text-align: center;
+        animation-name: Change2;
+        animation-duration: 0.12s;
+        animation-timing-function: linear;
+        animation-iteration-count:infinite;
+        display: flex;
+        position: absolute;
+        top: 0px;
+        z-index: 2;
      }
      
      #message3 {
-       font-style: italic;
-       font-size: 3vw;
-       text-align: center;
        display: none;
      }
 
@@ -62,17 +426,20 @@ body {
        }
        
        #message2 {
-       font-style: italic;
-       font-size: 15vw;
-         text-align: center;
        display: none;
      }
      
      #message3 {
-       font-style: italic;
-       font-size: 3vw;
-       text-align: center;
-       display: block;
+      font-family: sunflower;
+      text-align: center;
+      animation-name: Change3;
+      animation-duration: 0.12s;
+      animation-timing-function: linear;
+      animation-iteration-count:infinite;
+      display: flex;
+      position: absolute;
+      top: 0px;
+      z-index: 2;
      }
        
      }
