@@ -370,7 +370,7 @@ animation-iteration-count:infinite;
   @keyframes Change1 {
     0% {color: rgb(255, 255, 255);font-size: 210px;}
     25% {color: rgb(217, 33, 125);}
-    50% {color: rgb(0, 0, 0);font-size: 220px;}
+    50% {color: rgb(0, 0, 0);font-size: 225px;}
     75% {color:rgb(166, 189, 52);}
     100% {color:rgb(0, 0, 0);font-size: 210px;}
   }
