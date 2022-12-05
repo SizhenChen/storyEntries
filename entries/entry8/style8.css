@@ -347,7 +347,6 @@ animation-iteration-count:infinite;
     display: flex;
     width: 1600px;
     position: absolute;
-    height: 1850px;
     z-index: 3;
   }
   
