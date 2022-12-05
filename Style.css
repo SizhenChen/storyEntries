@@ -1,3 +1,62 @@
 body{
-    background-image: url(https://i.pinimg.com/564x/68/a3/3a/68a33a01b8339d4af5e78e308859afdc.jpg);
+    background-image: url(https://i.pinimg.com/564x/1c/89/56/1c8956908c496c2bf73f9f570bcc5f51.jpg);
+    background-size: 1550px;
+    height: 900px;
+    background-position: absolute;
+    background-repeat: no-repeat;
+}
+img{
+    position:absolute;
+}
+img:hover{
+    filter: opacity(50%);
+}
+#墙洞:hover{
+    filter: opacity(15%)
+}
+#门{
+    width: 200px;
+    top: 330px;
+    left: 750px;
+}
+#信堆{
+    width: 88px;
+    top: 830px;
+    left: 500px;
+}
+#墙洞{
+    width: 90px;
+    filter: brightness(94%);
+    top: 350px;
+    left: 400px;
+}
+#墙架子{
+    width: 210px;
+    top: 400px;
+    left: 960px;
+}
+#墙上纸{
+    width: 45px;
+    top: 400px;
+    left: 110px;
+}
+#打开的电脑{
+    width: 95px;
+    top: 720px;
+    left: 350px;
+}
+#小桌子{
+    width: 170px;
+    top: 720px;
+    left: 1100px;
+}
+#抽屉上的电脑{
+    width: 160px;
+    top: 482px;
+    left: 510px;
+}
+#催眠画{
+    width: 100px;
+    top: 300px;
+    left: 600px;
 }
