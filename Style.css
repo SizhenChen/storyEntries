@@ -60,3 +60,27 @@ img:hover{
     top: 300px;
     left: 600px;
 }
+h1{
+    font-family: Sunflower;
+    color: black;
+    position: absolute;
+    top: 70px;
+    left: 400px;
+}
+h1:hover{
+    animation: pulse 2s infinite;
+    animation-timing-function: linear;
+}
+@keyframes pulse {
+    0% {
+      filter: opacity(100%);
+    }
+  
+    50% {
+        filter: opacity(20%);
+    }
+  
+    100% {
+        filter: opacity(100%);
+    }
+  }
