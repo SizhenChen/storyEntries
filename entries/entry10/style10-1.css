@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    background: url(https://i.pinimg.com/originals/36/b0/55/36b0558977e905dd2ab607a987092b51.gif);
+    background-size: cover;
+}
+@keyframes appear {
+    0%{filter: opacity(0%);}
+    30%{filter: opacity(100%);}
+    70%{filter: opacity(100%);}
+    100%{filter: opacity(0%);}
+}
+
+#句1{
+    position: absolute;
+    width: 800px;
+    top: 250px;
+    left: 380px;    
+    filter: opacity(0%);
+    animation-name: appear;
+    animation-duration: 6s;
+}
+#句2{
+    position: absolute;
+    width: 800px;
+    top: 250px;
+    left: 380px;
+    filter: opacity(0%);
+    animation-name: appear;
+    animation-duration: 6s;
+    animation-delay: 6s;
+}
+#句3{
+    position: absolute;
+    width: 800px;
+    top: 250px;
+    left: 380px;
+    filter: opacity(0%);
+    animation-name: appear;
+    animation-duration: 6s;
+    animation-delay: 12s;
+}
+#句4{
+    position: absolute;
+    width: 800px;
+    top: 250px;
+    left: 380px;
+    filter: opacity(0%);
+    animation-name: appear;
+    animation-duration: 6s;
+    animation-delay: 18s;
+}
+#句5{
+    position: absolute;
+    width: 800px;
+    top: 250px;
+    left: 380px;
+    filter: opacity(0%);
+    animation-name: appear;
+    animation-duration: 6s;
+    animation-delay: 25s;
+}
+#句6{
+    position: absolute;
+    width: 800px;
+    top: 250px;
+    left: 380px;
+    filter: opacity(0%);
+    animation-name: appear;
+    animation-duration: 10s;
+    animation-delay: 33s;
+}
+
+#毕业照{
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    left: 600px;
+    filter: opacity(0%);
+    animation-name: appear;
+    animation-duration: 18s;
+    animation-delay: 47s;
+}
+audio { 
+    display:none;
+}
